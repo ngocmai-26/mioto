@@ -1,4 +1,4 @@
-import Header from "./Layout";
+import Header, { Footers } from "./Layout";
 import icon1 from "../assets/img/icon1.png";
 import icon2 from "../assets/img/icon2.png";
 
@@ -237,7 +237,37 @@ function Home() {
             </div>
           </div>
         </div>
+
+        <div className="newspaper__sect">
+          <div className="container">
+            <div className="news__sect">
+              <div className="bg-news">
+                <img src="https://www.mioto.vn/static/media/news-car.5c3da7c3.png" alt="" />
+              </div>
+              <h3 className="n-title">BÁO CHÍ NÓI VỀ CHÚNG TÔI </h3>
+              <div className="news-wrapper">
+                <a href="#">
+                  <div className="news-item">
+                    <img src="https://www.mioto.vn/static/media/news-dantri.2d5c647f.svg" alt="" />
+                  </div>
+                </a>
+                <a href="#">
+                  <div className="news-item">
+                    <img src="	https://www.mioto.vn/static/media/news-vnExpress.7ee14294.svg" alt="" />
+                  </div>
+                </a>
+                <a href="#">
+                  <div className="news-item">
+                    <img src="https://www.mioto.vn/static/media/news-genk.897bac56.svg" alt="" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
+      <Footers />
     </>
   );
 }

@@ -297,6 +297,7 @@ input {
 .part-list-item {
     list-style: none;
     padding: 7px 0;
+    color: #fff
 }
 
 .part-list .part-list-item a {
@@ -950,7 +951,7 @@ input {
 }
 
 .tutorial__sect {
-    margin-top: 50px;
+    margin: 60px 0;
     position: relative;
 }
 
@@ -1054,4 +1055,118 @@ input {
 .btn-registerCar:hover {
     background-color: #078845;
 
+}
+
+.module-payment {
+    padding: 15px 0 30px;
+}
+
+.payment-item {
+    width: 38%;
+}
+
+.payment-wrap {
+    border-radius: 3px;
+}
+
+.payment-wrap-item {
+    
+    height: auto;
+    background-color: #fff;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    border-radius: 6px;
+    padding: 10px;
+    text-align: center;
+}
+
+.payment-wrap-item .fix-img img {
+    width: 80%;
+}
+
+.payment-wrapper .title {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.nav-footer .part-list-item {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.footer-info {
+    background-color: #000;
+    padding: 50px 0;
+}
+
+/*********Home**************/
+.newspaper__sect {
+    position: relative;
+    margin: 80px 0;
+}
+
+.newspaper__sect .news__sect {
+    min-height: 360px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.newspaper__sect .news__sect .bg-news {
+    position: absolute;
+    background-color: #ffd600;
+    height: 100%;
+    left: 20%;
+}
+
+.newspaper__sect .news__sect .bg-news img {
+    position: relative;
+    top: 25%;
+    left: -30%;
+}
+
+.newspaper__sect .news__sect h3.n-title {
+    position: relative;
+}
+
+.newspaper__sect .news__sect h3.n-title::before {
+    content: "";
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 2;
+    background-image: url('https://www.mioto.vn/static/media/news-dots.d6d8e76b.svg');
+    width: 88px;
+    height: 28px;
+    right: 0;
+    top: -60px;
+}
+
+h3.n-title {
+    color: #141414;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.newspaper__sect .news__sect .news-wrapper {
+    position: relative;
+    margin-top: 16px;
+    margin-bottom: 40px;
+    display: flex;
+    margin-left: 0px;
+}
+
+.news-item {
+    margin: 5px;
+}
+
+.newspaper__sect .news__sect .news-wrapper img {
+    max-width: 193px;
+    padding: 48px 10px;
+    background-color: #ebf2f7;
 }
