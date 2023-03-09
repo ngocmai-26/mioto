@@ -1170,3 +1170,435 @@ h3.n-title {
     padding: 48px 10px;
     background-color: #ebf2f7;
 }
+
+.carousel-indicators {
+    display: none;
+}
+
+.carousel-control-prev {
+    left: -130px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.carousel-control-next {
+    right: -130px;
+}
+
+.title-car {
+    color: #6e6e6e;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    text-align: start;
+    font-weight: 700;
+}
+
+/**************store*******************/
+.down-app__sect {
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.down-app__sect::before {
+    content: "";
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 2;
+    height: 128px;
+    width: 28px;
+    background-image: url('https://www.mioto.vn/static/media/dots1.e3f3234b.svg');
+    left: 40px;
+    top: 40px;
+}
+
+.down-app-bg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.down-app-bg::before {
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    background-image: url('https://www.mioto.vn/static/media/background-1.86684f41.svg');
+    background-position: 0 100%;
+    width: 90%;
+    left: 0px;
+    top: 40px;
+}
+
+.down-app__sect:after {
+    content: '';
+    background-image: url('https://www.mioto.vn/static/media/dots2.5ee699a2.svg');
+    bottom: 40px;
+    right: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+    position: absolute;
+    height: 128px;
+    width: 28px;
+}
+
+.down-app-bg .container {
+    min-height: 620px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+.down-app-bg:after {
+    background-image: url('https://www.mioto.vn/static/media/background-2.b74ef1d2.svg');
+    width: 40%;
+    bottom: 140px;
+    right: 0;
+    background-position: 100% 100%;
+}
+
+.app-content {
+    text-align: right;
+    z-index: 1;
+    margin-right: 40px;
+}
+
+.down-app__sect .app-content h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.25;
+    font-size: 2.5rem;
+}
+
+.down-app__sect .app-content p {
+    font-size: 1.125rem;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.down-app-1 {
+    max-width: 423px;
+    top: calc(50% + 20px) ;
+    right: 50%;
+    transform: translate(-50%,-50%) rotate(-1deg);
+}
+
+.down-app-2 {
+    max-width: 528px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+}
+
+.down-app-1, .down-app-2 {
+    position: absolute;
+    display: block;
+}
+
+/*****************************/
+.box-car__wrap .img-car {
+    position: relative;
+    font-size: .875rem;
+    margin-bottom: 0;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 5px 5px 0 0;
+}
+
+.box-car__wrap .img-car .fix-img:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.2);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+    transition: all .3s linear;
+}
+
+.box-car__wrap .price-car {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    background-color: #00a150cc;
+    color: #fff;
+    padding: .25rem .75rem;
+    border-top-left-radius: 5px;
+    font-weight: 700;
+    z-index: 2;
+}
+
+.item-car .desc-car {
+    position: relative;
+    padding: 10px 0;
+}
+
+.box-car__wrap .desc-car__name {
+    display: flex;
+    align-items: center;
+}
+
+.box-car__wrap .desc-car__name h2 {
+    max-width: calc(100% - 35px);
+    width: fit-content;
+    margin-right: 5px;
+    font-size: 1rem;
+    line-height: 24px;
+    color: #141414;
+    font-weight: 700;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+.box-car__wrap .img-car .fix-img:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.2);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+    transition: all .3s linear;
+}
+
+.box-car__link {
+    text-decoration: none;
+    color: #141414;
+}
+
+.box-car__link:hover {
+    color: #141414;
+}
+
+.desc-car {
+    text-align: start;
+}
+
+.item-car .group-line {
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.star_rate-num {
+    font-weight: 500;
+    font-size: .875rem;
+    margin-right: 0;
+    color: #141414;
+    line-height: 24px;
+}
+
+.icon-star {
+    color: #018943;
+}
+.group-label {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-car__wrap .group-label span {
+    font-size: .75rem;
+    color: #6e6e6e;
+    background: #e8eaef;
+    padding: 0.3rem 0.75rem;
+    margin-right: 0.5rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+}
+
+.box-car__wrap .location p {
+    font-size: .875rem;
+    color: #141414;
+    margin-left: -3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-car .desc-car p i {
+    position: relative;
+    top: -1px;
+}
+
+.fix-imgs {
+    width: 100%;
+}
+
+.ex-container {
+    max-width: 1140px;
+}
+
+/************/
+.destination__sect .dest-item .fix-img:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 60%;
+    border-radius: 0 0 10px 10px;
+    background: linear-gradient(transparent,#5d5fef);
+}
+
+.destination__sect .dest-item .dest-img h3 {
+    color: #fff;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    font-weight: 700;
+    width: 100%;
+    padding: 15px;
+}
+
+.destination__sect .dest-item .dest-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+    height: 100%;
+}
+
+.dest-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.destination__sect .dest-item .dest-img h3 span {
+    display: block;
+    font-weight: 500;
+    font-size: .875rem;
+}
+
+.dest-item-img {
+    position: relative;
+    height: 270px;
+}
+
+.col-dest-item {
+    width: 20%;
+}
+
+
+/*******************/
+.destination__sect {
+    position: relative;
+    margin-top: 80px;
+    padding-bottom: 20px;
+    background: linear-gradient(180deg,#fff 0,#fff 54%,#efeffe 0,#efeffe)
+}
+.airport-container {
+    position: relative;
+    background: #efeffe;
+    padding-top: 20px;
+}
+
+.airport-container .airport-note {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #5d5fef;
+    width: 140px;
+    height: 140px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.airport-container .airport-note span {
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    padding-left: 27%;
+}
+
+.airport-container .swiper-airport {
+    padding: 0 20px;
+    max-width: 900px;
+    padding-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    z-index: 1;
+}
+
+.border-img {
+    border-radius: 100%;
+    border: 2px solid #5d5fef;
+}
+
+.border-img .fix-img img {
+    padding: 5px;
+    border-radius: 100%;
+    transition: all .3s ease-in-out;
+    width: 100%;
+}
+
+.border-img .dest-item-img {
+    height: 150px;
+    width: 150px;
+    padding: 0;
+}
+
+.airport-container .swiper-airport h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.airport-container .swiper-airport .carousel-control-prev {
+    left: -80px;
+}
+
+.airport-container .swiper-airport .carousel-control-next {
+    right: -80px;
+}
+
+.destination__sect.wd-dest {
+    background: linear-gradient(180deg,#fff 0,#fff 54%,#f3f9f9 0,#f3f9f9);
+}
+
+.destination__sect.wd-dest .fix-img:before {
+    background: linear-gradient(transparent,#159093);
+}
+
+.airport-container.wd-airport {
+    background: #f3f9f9;
+}
+
+.airport-container.wd-airport .airport-note {
+    background: #159093;
+}
+
+.airport-container.wd-airport .swiper-airport .border-img {
+    border: 2px solid #159093;
+}
