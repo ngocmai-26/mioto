@@ -13,7 +13,7 @@ function Home() {
         <div className="home-body-slide">
           <div className="home-box">
             <h1 className="slogan landing-text">
-              MIOTO - CÙNG BẠN TRÊN MỌI HÀNH TRÌNH
+              KARRY - CÙNG BẠN TRÊN MỌI HÀNH TRÌNH
             </h1>
             <div className="home-box-service">
               <div className="search-service--wrapper">
@@ -452,7 +452,7 @@ function Home() {
                     />
                   </div>
                   <div className="step-detail">
-                    <h5>Đặt xe với Mioto</h5>
+                    <h5>Đặt xe với Karry</h5>
                   </div>
                 </a>
               </div>

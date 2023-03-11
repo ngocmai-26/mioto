@@ -5,6 +5,7 @@ import { Button, Modal } from "bootstrap";
 import { Form, Link } from "react-router-dom";
 import classNames from "classnames";
 import visa from "../assets/img/visa.png";
+import logo from "../assets/img/logo.png";
 
 function Header() {
   const [show, setShow] = useState(false);
@@ -18,7 +19,10 @@ function Header() {
           <div className="row logo-container">
             <div className="col-xl-2 col-3">
               <div className="header-logo">
-                <a href="#">Mioto</a>
+              <img src={logo} width="40" height={"40"}/>
+                <a href="/index" >
+                  KARRY
+                </a>
               </div>
             </div>
 
@@ -29,7 +33,7 @@ function Header() {
               </span>
               <span>
                 <i className="fa-solid fa-envelope"></i>
-                <a href=""> contact@mioto.vn</a>
+                <a className="ps-1" href="/intro">KARRY@gmail.com</a>
               </span>
             </div>
 
@@ -207,7 +211,6 @@ function Header() {
 }
 
 export default Header;
-
 export const Footers = (props) => {
   return (
     <footer className="footer">
@@ -216,7 +219,8 @@ export const Footers = (props) => {
           <div className="row">
             <div className="col-xl-4 col-12">
               <div className="logo-footer">
-                <a href="">Mioto</a>
+                <img style={{margin:"8px 0px"}} src={logo} width="40" height="40"/>
+                <a style={{fontSize:"20px",fontWeight:"700",color:"white",textDecoration:"none",margin:"0px 4px"}} href="">KARRY</a>
               </div>
               <ul className="footerIcon-list">
                 <li>
@@ -392,7 +396,7 @@ export const Footers = (props) => {
                       <a href="#">Hỏi và trả lời</a>
                     </li>
                     <li className="part-list-item">
-                      <a href="#">Mioto blog</a>
+                      <a href="#">Karry blog</a>
                     </li>
                     <li className="part-list-item">
                       <a href="#">Tuyển dụng</a>
@@ -473,7 +477,7 @@ export const Footers = (props) => {
           <div className="row">
             <div className="col-xl-4">
               <span className="part-list-item">
-                © Công ty Cổ Phần Mioto Asia
+                © Công ty Cổ Phần Karry Asia
               </span>
               <ul className=" part-list">
                 <li className="part-list-item">Số GCNĐKKD: 0317 307 544</li>
@@ -547,7 +551,7 @@ export const Footers = (props) => {
                   </a>
                 </li>
                 <li className="part-list-item">
-                  <a href="#">Tên TK: CT CP MIOTO ASIA</a>
+                  <a href="#">Tên TK: CT CP Karry ASIA</a>
                 </li>
                 <li className="part-list-item">
                   <a href="#">Số TK: 102-989-1989 </a>

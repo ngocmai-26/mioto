@@ -1,12 +1,14 @@
 import logoIntroduce from "../assets/img/logoIntroduce.jpg";
 import logoZalo from "../assets/img/zalo.png";
-
+import banner from '../assets/img/banner.png';
+import Header, { Footers } from "./Layout";
 function Introduce() {
   return (
     <>
+      <Header></Header>
       <div className="introduce">
         <div className="container">
-          <header className="introduce-header">
+          {/* <header className="introduce-header">
             <div className="row">
               <div className="col-xl-4">
                 <div className="introduce-logo">
@@ -32,9 +34,12 @@ function Introduce() {
                 </div>
               </div>
             </div>
-          </header>
+          </header> */}
 
-          <nav className="introduce-menu">
+          <div style={{height:"300px",margin:"80px 0px"}}>
+            <img src={banner} width="100%" height={"100%"}/>
+          </div>
+          {/* <nav className="introduce-menu">
             <ul className="menu-top">
               <li className="menu--item">
                 <a href="#" className="menu--item-link">
@@ -167,7 +172,7 @@ function Introduce() {
                 <i class="fa-solid fa-magnifying-glass"></i>
               </button>
             </div>
-          </nav>
+          </nav> */}
 
           <section className="content">
             <div className="container-introduce">
@@ -195,7 +200,7 @@ function Introduce() {
                   <div className="content--item-text">
                     <p>
                       <b className="content--item-text1">
-                        <span>Công ty TNHH Thuê Xe Sài Gòn </span>
+                        <span>KARRY</span>
                       </b>
                       <span>
                         Chúng tôi tạo nên khác biệt bằng việc luôn cam kết mang
@@ -295,7 +300,7 @@ function Introduce() {
             </div>
           </section>
 
-          <footer className="footerIntroduce">
+          {/* <footer className="footerIntroduce">
             <div className="wrapper">
               <div className="row">
                 <div className="col-xl-4">
@@ -423,13 +428,14 @@ function Introduce() {
                 </div>
               </div>
             </div>
-          </footer>
+          </footer> */}
         </div>
 
         <div className="ser_onl">
           <div className="label_serv_onl">Chat với chúng tôi</div>
         </div>
       </div>
+      <Footers></Footers>
     </>
   );
 }
