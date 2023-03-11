@@ -6,7 +6,7 @@ import Register from './view/Register';
 import Header from './view/Layout';
 import Introduce from './view/Introduce';
 import Home from './view/Home';
-import AppRouter from './core/navs/AppRouter';
+import AppRouter from './core/Navs/AppRouter';
 
 function App() {
   return (
