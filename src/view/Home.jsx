@@ -55,29 +55,146 @@ function Home() {
                         <label htmlFor="" className="home-label">
                           Bắt đầu
                         </label>
-                        <div className="wrap-input">
+                        <div className="row">
+                        <div className="col-xl-5">
+                          <div className="wrap-input">
                           <div className="here-autocomplete">
                             <input
-                              type="text"
-                              placeholder="Thành phố Hồ Chí Minh, Việt Nam"
-                              defaultValue="Thành phố Hồ Chí Minh, Việt Nam"
+                              type="date"
+                              defaultValue="10/03/2023"
                             />
                           </div>
+                          </div>
+                          
                         </div>
+
+                        <div className="col-xl-4">
+                          <div className="wrap-input">
+                          <select name="" id="select-autocomplete" className="here-autocomplete">
+                            <option value="0">00:00</option>
+                            <option value="1">00:30</option>
+                            <option value="2">01:00</option>
+                            <option value="3">01:30</option>
+                            <option value="4">02:00</option>
+                            <option value="5">02:30</option>
+                            <option value="6">03:00</option>
+                            <option value="7">03:30</option>
+                            <option value="8">04:00</option>
+                            <option value="9">04:30</option>
+                            <option value="10">05:00</option>
+                            <option value="11">05:30</option>
+                            <option value="12">06:00</option>
+                            <option value="13">06:30</option>
+                            <option value="14">07:00</option>
+                            <option value="15">07:30</option>
+                            <option value="16">08:00</option>
+                            <option value="17">08:30</option>
+                            <option value="18">09:00</option>
+                            <option value="19">09:30</option>
+                            <option value="20">10:00</option>
+                            <option value="21">10:30</option>
+                            <option value="22">11:00</option>
+                            <option value="23">11:30</option>
+                            <option value="24">12:00</option>
+                            <option value="25">12:30</option>
+                            <option value="26">13:00</option>
+                            <option value="27">13:30</option>
+                            <option value="28">14:00</option>
+                            <option value="29">15:30</option>
+                            <option value="30">16:00</option>
+                            <option value="31">16:30</option>
+                            <option value="32">17:00</option>
+                            <option value="33">17:30</option>
+                            <option value="34">18:00</option>
+                            <option value="35">18:30</option>
+                            <option value="36">19:00</option>
+                            <option value="37">19:30</option>
+                            <option value="38">20:00</option>
+                            <option value="39">20:30</option>
+                            <option value="40">21:00</option>
+                            <option value="41">21:30</option>
+                            <option value="42">22:00</option>
+                            <option value="43">22:30</option>
+                            <option value="44">23:00</option>
+                            <option value="45">23:30</option>
+                          </select>
+                          </div>
+                          
+                        </div>
+                        </div>
+                        
                       </div>
 
                       <div className="form-search">
                         <label htmlFor="" className="home-label">
                           Kết thúc
                         </label>
-                        <div className="wrap-input">
+                        <div className="row">
+                        <div className="col-xl-5">
+                          <div className="wrap-input">
                           <div className="here-autocomplete">
                             <input
-                              type="text"
-                              placeholder="Thành phố Hồ Chí Minh, Việt Nam"
-                              defaultValue="Thành phố Hồ Chí Minh, Việt Nam"
+                              type="date"
+                              defaultValue="10/03/2023"
                             />
                           </div>
+                          </div>
+                          
+                        </div>
+
+                        <div className="col-xl-4">
+                          <div className="wrap-input">
+                          <select name="" id="select-autocomplete" className="here-autocomplete">
+                            <option value="0">00:00</option>
+                            <option value="1">00:30</option>
+                            <option value="2">01:00</option>
+                            <option value="3">01:30</option>
+                            <option value="4">02:00</option>
+                            <option value="5">02:30</option>
+                            <option value="6">03:00</option>
+                            <option value="7">03:30</option>
+                            <option value="8">04:00</option>
+                            <option value="9">04:30</option>
+                            <option value="10">05:00</option>
+                            <option value="11">05:30</option>
+                            <option value="12">06:00</option>
+                            <option value="13">06:30</option>
+                            <option value="14">07:00</option>
+                            <option value="15">07:30</option>
+                            <option value="16">08:00</option>
+                            <option value="17">08:30</option>
+                            <option value="18">09:00</option>
+                            <option value="19">09:30</option>
+                            <option value="20">10:00</option>
+                            <option value="21">10:30</option>
+                            <option value="22">11:00</option>
+                            <option value="23">11:30</option>
+                            <option value="24">12:00</option>
+                            <option value="25">12:30</option>
+                            <option value="26">13:00</option>
+                            <option value="27">13:30</option>
+                            <option value="28">14:00</option>
+                            <option value="29">15:30</option>
+                            <option value="30">16:00</option>
+                            <option value="31">16:30</option>
+                            <option value="32">17:00</option>
+                            <option value="33">17:30</option>
+                            <option value="34">18:00</option>
+                            <option value="35">18:30</option>
+                            <option value="36">19:00</option>
+                            <option value="37">19:30</option>
+                            <option value="38">20:00</option>
+                            <option value="39">20:30</option>
+                            <option value="40">21:00</option>
+                            <option value="41">21:30</option>
+                            <option value="42">22:00</option>
+                            <option value="43">22:30</option>
+                            <option value="44">23:00</option>
+                            <option value="45">23:30</option>
+                          </select>
+                          </div>
+                          
+                        </div>
                         </div>
                       </div>
 
