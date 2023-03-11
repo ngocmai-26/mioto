@@ -1602,3 +1602,107 @@ h3.n-title {
 .airport-container.wd-airport .swiper-airport .border-img {
     border: 2px solid #159093;
 }
+
+/**********************/
+.cart {
+    margin: auto;
+    padding: 15px 0;
+    text-align: right;
+    position: relative;
+}
+
+.cart-item {
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+.cart-item-btn {
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+}
+
+.cartList {
+    position: absolute;
+}
+
+.count {
+    position: absolute;
+    background-color: #c92103;
+    padding: 0 5px;
+    color: #fff;
+    border-radius: 50%;
+    top: -3px;
+    right: 0;
+    font-size: 14px;
+}
+
+.cartList {
+    width: 350px;
+    height: 150px;
+    z-index: 9999;
+    position: absolute;
+    background-color: #fff;
+    top: 45px;
+    left: -130px;
+    display: none;
+}
+
+.cart-item:hover .cartList {
+    display: block;
+}
+.cartList ul {
+    padding: 0px;
+}
+
+.cartList--item {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    position: relative;
+}
+
+.cartList--item-img {
+    width: 100%;
+}
+.cartList--item-introduce {
+    text-align: start;
+
+}
+
+.cartList--item a {
+    text-decoration: none;
+}
+.cartList--item-name .cartList--item-link{
+    color: #141414;
+    font-weight: 600;
+}
+
+.cartList--item-price {
+    font-weight: 700;
+    color: #018943;
+
+}
+
+.removeCart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/******************/
+#select-autocomplete {
+    background-color: transparent;
+    border: 0; 
+    color: #fff;
+    padding: 10px 0;
+}
+
+#select-autocomplete option {
+    color: #000;
+}
